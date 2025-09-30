@@ -20,6 +20,7 @@ body {
   overflow-x: hidden;
 }
 
+
 /* Variables CSS */
 :root {
   --primary-color: #4f46e5;
@@ -930,3 +931,31 @@ main {
     border: 1px solid #000;
   }
 }
+  .legend {
+    margin-top: 15px;
+  }
+  .legend h4 {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #333;
+  }
+  .legend-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 columnas */
+    gap: 8px 20px; /* espacio entre filas y columnas */
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+  }
+  .legend-color {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+  }
+  .legend-text {
+    font-size: 13px;
+    color: #444;
+  }
